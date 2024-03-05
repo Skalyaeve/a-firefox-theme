@@ -12,9 +12,9 @@
 git clone https://github.com/Skalyaeve/a-firefox-theme.git
 cd a-firefox-theme
 file=userChrome.css
-find ~/.mozilla/firefox/ -type d -name "*.default*" | xargs -I {} mkdir -p {}/chrome
-find ~/.mozilla/firefox/ -type d -name "*.default*" | xargs -I {} mv {}/chrome/$file {}/chrome/$file.bak 2>/dev/null
-find ~/.mozilla/firefox/ -type d -name "*.default*" | xargs -I {} cp srcs/$file {}/chrome
+find ~/.mozilla/firefox -type d -name *.default* | xargs -I {} mkdir -p {}/chrome
+find ~/.mozilla/firefox -type d -name *.default* | xargs -I {} mv {}/chrome/$file {}/chrome/$file.bak 2>/dev/null
+find ~/.mozilla/firefox -type d -name *.default* | xargs -I {} cp srcs/$file {}/chrome
 ```
 
 ### How to install (Windows)
