@@ -1,5 +1,8 @@
 # A firefox theme
 
+### Preview
+![](https://github.com/Skalyaeve/a-firefox-theme/blob/main/preview.png)
+
 ### How to install (Linux)
 - [Download](https://addons.mozilla.org/fr/firefox/addon/dark-pixels/) the firefox theme
 - Firefox search bar -> type `about:config` -> accept
