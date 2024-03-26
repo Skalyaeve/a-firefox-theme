@@ -1,15 +1,16 @@
 * {
     font-family: "Terminess Nerd Font", sans-serif !important;
     font-size: 15px !important;
+    border-radius: 0px !important;
 }
 
 #TabsToolbar .toolbarbutton-1 {
-  display: none !important;
+    display: none !important;
 }
 
 .tabbrowser-tab {
     margin-top: 4px !important;
-    margin-bottom: -6px !important;
+    margin-bottom: -8px !important;
     margin-left: -2px !important;
     margin-right: -4px !important;
 }
@@ -29,17 +30,9 @@
     box-shadow: none !important;
 }
 
-#nav-bar-customization-target {
-    padding-top: 4px !important;
-}
-
-#urlbar-background {
-  border-radius: 0 !important;
-}
-
 #personal-bookmarks, #PlacesToolbar, #PlacesToolbarItems {
-  min-width: 0 !important;
-  padding: 1px 0 !important;
+    min-width: 0 !important;
+    padding: 1px 0 !important;
 }
 
 :root {
