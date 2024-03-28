@@ -14,7 +14,7 @@ dir=$(find $HOME/.mozilla -maxdepth 1 -type d -name *firefox*)
 find $dir -type d -name *.default* | xargs -I {} mkdir -p {}/chrome
 find $dir -type d -name *.default* | xargs -I {} mv {}/chrome/$file {}/chrome/$file.bak 2>/dev/null
 find $dir -type d -name *.default* | xargs -I {} cp srcs/$file {}/chrome
-rm -r a-firefox-theme
+cd .. && rm -r a-firefox-theme
 ```
 
 ## Install - Windows
