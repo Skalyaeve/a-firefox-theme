@@ -5,7 +5,7 @@
 }
 
 /* =============================TABS */
-#TabsToolbar .toolbarbutton-1 {
+toolbarbutton {
     display: none !important;
 }
 
