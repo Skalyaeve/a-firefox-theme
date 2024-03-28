@@ -1,41 +1,45 @@
 * {
     font-family: "Terminess Nerd Font", sans-serif !important;
     font-size: 15px !important;
-    border-radius: 0px !important;
+    border-radius: 0 !important;
 }
 
+/* =============================TABS */
 #TabsToolbar .toolbarbutton-1 {
     display: none !important;
 }
 
+#tabbrowser-arrowscrollbox {
+    margin-left: 8px !important;
+}
+
 .tabbrowser-tab {
-    margin-top: 4px !important;
-    margin-bottom: -8px !important;
+    margin-top: 8px !important;
+    margin-bottom: -4px !important;
     margin-left: -2px !important;
-    margin-right: -4px !important;
+    margin-right: -2px !important;
 }
 
 .tab-background {
     background-image: none !important;
-    background-color: rgba(32, 32, 32, 0.8) !important;
-    border-radius: 0px !important;
+    background-color: rgba(32, 32, 32, 0.85) !important;
 }
 
 .tab-background[selected="true"] {
-    background-color: rgba(16, 16, 16, 0.8) !important;
+    background-color: rgba(8, 8, 8, 0.85) !important;
     outline: none !important;
 }
 
+/* =============================NAVBAR */
 #nav-bar {
     box-shadow: none !important;
 }
 
-#personal-bookmarks, #PlacesToolbar, #PlacesToolbarItems {
-    min-width: 0 !important;
-    padding: 1px 0 !important;
+#urlbar-container {
+    height: 52px !important;
 }
 
-:root {
-    --tab-border-radius: 0 !important;
-    --toolbarbutton-border-radius: 0px !important;
+/* =============================TOOLBAR */
+#PersonalToolbar {
+    padding-bottom: 6px !important;
 }
