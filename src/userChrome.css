@@ -5,17 +5,39 @@
 }
 
 /* =============================TABS */
-toolbarbutton {
+#firefox-view-button {
     display: none !important;
 }
 
-#tabbrowser-arrowscrollbox {
-    margin-left: 8px !important;
+#tabs-newtab-button {
+    display: none !important;
+}
+
+#new-tab-button {
+    display: none !important;
+}
+
+#alltabs-button {
+    display: none !important;
+}
+
+#scrollbutton-up {
+    display: none !important;
+}
+
+#scrollbutton-down {
+    display: none !important;
+}
+
+#tabbrowser-tabs {
+    border: none !important;
+    bottom: -4px !important;
+    padding-left: 14px !important;
+    padding-right: 14px !important;
+    margin-top: 8px !important;
 }
 
 .tabbrowser-tab {
-    margin-top: 8px !important;
-    margin-bottom: -4px !important;
     margin-left: -2px !important;
     margin-right: -2px !important;
 }
@@ -26,6 +48,7 @@ toolbarbutton {
 }
 
 .tab-background[selected="true"] {
+    background-image: none !important;
     background-color: rgba(8, 8, 8, 0.85) !important;
     outline: none !important;
 }
