@@ -1,5 +1,5 @@
 # A firefox theme
-![](https://github.com/Skalyaeve/images/blob/main/screenshot/firefox-theme.png)
+![](https://github.com/Skalyaeve/images-1/blob/main/screenshot/firefox-theme.png)
 
 ## Install - Linux
 - Download [the firefox theme](https://addons.mozilla.org/fr/firefox/addon/dark-pixels/)
