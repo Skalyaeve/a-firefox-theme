@@ -16,6 +16,7 @@ find $dir -type d -name *.default* | xargs -I {} mv {}/chrome/$file {}/chrome/$f
 find $dir -type d -name *.default* | xargs -I {} cp $name/src/$file {}/chrome
 rm -r $name
 ```
+> *Font [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Terminus.zip)*
 
 ## Install - Windows
 - Uninstall Windows
