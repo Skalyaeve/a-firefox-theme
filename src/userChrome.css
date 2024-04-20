@@ -46,10 +46,11 @@
 }
 
 #alltabs-button {
-    background-image: none !important;
-    background-color: rgba(8, 8, 8, 0.85) !important;
     margin-top: 16px !important;
-    box-shadow: 0 0 1px white !important;
+}
+
+#private-browsing-indicator-with-label {
+    display: none !important;
 }
 
 /* =============================NAVBAR */

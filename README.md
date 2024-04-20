@@ -5,7 +5,7 @@
 - Download [the firefox theme](https://addons.mozilla.org/fr/firefox/addon/dark-pixels/)
 - Firefox search bar -> type `about:config` -> accept
 - `about:config` search bar -> type `toolkit.legacyUserProfileCustomizations.stylesheets` -> set to `true`
-- Terminal -> run this:
+- Terminal ->
 ```sh
 name=a-firefox-theme
 git clone https://github.com/Skalyaeve/$name.git
