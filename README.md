@@ -10,7 +10,7 @@
 name=a-firefox-theme
 git clone https://github.com/Skalyaeve/$name.git
 file=userChrome.css
-dir=$(find ~/.mozilla -maxdepth 1 -type d -name *firefox*)
+dir=$(find ~/.mozilla -maxdepth 1 -name "*firefox*")
 find $dir -type d -name *.default* | xargs -I {} mkdir -p {}/chrome
 find $dir -type d -name *.default* | xargs -I {} mv {}/chrome/$file {}/chrome/$file.bak 2>/dev/null
 find $dir -type d -name *.default* | xargs -I {} cp $name/src/$file {}/chrome
