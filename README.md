@@ -14,7 +14,7 @@ dir=$(find ~/.mozilla -maxdepth 1 -type d -name *firefox*)
 find $dir -type d -name *.default* | xargs -I {} mkdir -p {}/chrome
 find $dir -type d -name *.default* | xargs -I {} mv {}/chrome/$file {}/chrome/$file.bak 2>/dev/null
 find $dir -type d -name *.default* | xargs -I {} cp $name/src/$file {}/chrome
-rm -r $name
+rm -rf $name
 ```
 > *Font [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Terminus.zip)*
 
