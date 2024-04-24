@@ -22,3 +22,4 @@ rm -rf $name
 - Uninstall Windows
 - Install Linux
 - Follow the Linux walkthrough
+
