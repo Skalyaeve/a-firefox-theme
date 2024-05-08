@@ -1,6 +1,6 @@
 ![](https://github.com/Skalyaeve/images-1/blob/main/screenshot/firefox-theme.png)
 
-## Install - Linux
+## Install
 - Download [the firefox theme](https://addons.mozilla.org/fr/firefox/addon/dark-pixels/)
 - Firefox search bar -> type `about:config` -> accept
 - `about:config` search bar -> type `toolkit.legacyUserProfileCustomizations.stylesheets` -> set to `true`
@@ -16,8 +16,3 @@ find $dir -type d -name *.default* | xargs -I {} cp $name/src/$file {}/chrome
 rm -rf $name
 ```
 > *Font [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Terminus.zip)*
-
-## Install - Windows
-- Uninstall Windows
-- Install Linux
-- Follow the Linux walkthrough
