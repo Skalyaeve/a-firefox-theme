@@ -1,4 +1,3 @@
-# <p align="center">A theme for firefox</p>
 ![](https://github.com/Skalyaeve/images-1/blob/main/screenshot/firefox-theme.png)
 
 ## Install - Linux
